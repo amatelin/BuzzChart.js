@@ -1,0 +1,11 @@
+{
+    "server": {
+        "protocol": "http",
+        "host": "http://54.191.218.88:3000/"
+    },
+    "wordpress": {
+        "key": "YourAppID",
+        "secret": "YourAppSecret",
+        "callback": "/handle_wordpress_callback",
+    }
+}
