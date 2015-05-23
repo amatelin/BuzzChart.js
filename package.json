@@ -1,0 +1,12 @@
+{
+    "name": "buzzChart.js",
+    "description": "A simple web application intended to provide a better visualisation of the virality of a post for wordpress users.",
+    "version": "0.0.1",
+    "private": true,
+    "dependencies": {
+        "express": "4.x",
+        "mongodb": "*",
+        "jade": "*",
+        "async": "*"
+    }
+}
