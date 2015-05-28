@@ -5,10 +5,13 @@ module.exports = function(app) {
 
 // Get home page
 app.get('/', function(req, res, next) {
-    console.log("FUCK");
     res.render('index');
 });
 
+app.get('/test', function(req, res, next) {
+    console.log("test");
+    res.render('connect');
+});
 
 app.get('/handle_wordpress_callback', function (req, res) {
   console.log("Hello")
