@@ -5,6 +5,11 @@
     "private": true,
     "dependencies": {
         "express": "4.x",
+        "express-session": "1.5.*",
+        "morgan": "1.1.1",
+        "body-parser": "*",
+        "cookie-parser": "*",
+        "grant-express": "*",
         "mongodb": "*",
         "jade": "*",
         "async": "*"
