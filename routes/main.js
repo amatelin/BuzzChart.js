@@ -8,7 +8,7 @@ app.get('/', function(req, res, next) {
     res.render('index');
 });
 
-app.get('/test', function(req, res, next) {
+app.get('/connect', function(req, res, next) {
     console.log("test");
     res.render('connect');
 });
